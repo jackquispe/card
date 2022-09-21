@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: rgb(9, 13, 46);
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.container {
+    padding: 20px;
+    width: 310px;
+    height: 500px;
+    margin: 50px;
+
+
+    background-color: rgb(29, 46, 78);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+.container div {
+    padding: 5px;
+}
+
+.content_header img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+
+}
+
+.content_titulo {
+    color: white;
+    font-size: 12px;
+}
+
+.content_p {
+    color: rgb(178, 192, 214);
+}
+
+.content {
+    display: flex;
+    border-bottom: 1px solid rgb(178, 192, 214);
+
+}
+
+.content .content_etherium {
+    display: flex;
+    color: aqua;
+    font-size: 10px;
+}
+
+.content .content_etherium h2 {
+    margin-left: 10px;
+}
+
+.content .content_clock {
+    display: flex;
+    font-size: 10px;
+    color: rgb(178, 192, 214);
+    margin-left: 30px;
+}
+
+.content .content_clock h2 {
+    margin-left: 10px;
+}
+
+.content_pie {
+    display: flex;
+
+}
+
+.content_pie img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.content_pie p {
+    display: flex;
+    align-items: center;
+
+    color: rgb(178, 192, 214);
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+.content_pie p span {
+    font-weight: 700;
+    color: white;
+    margin-left: 5px;
+}
