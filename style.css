@@ -31,16 +31,41 @@ body {
     padding: 5px;
 }
 
-.content_header img {
+.content_header {
     width: 250px;
     height: 250px;
     border-radius: 15px;
-
+    position: relative;
+    cursor: pointer;
+}
+.content_header img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
 }
 
+
+.content_header .view{
+    width: 0;
+    
+    background-color: rgba(32, 94, 128, 0.612);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .1s;
+    
+}
+.content_header:hover .view{
+    width: 96%;
+    height: 98%;
+}
 .content_titulo {
     color: white;
     font-size: 12px;
+    cursor: pointer;
 }
 
 .content_p {
@@ -50,7 +75,7 @@ body {
 .content {
     display: flex;
     border-bottom: 1px solid rgb(178, 192, 214);
-
+    cursor: pointer;
 }
 
 .content .content_etherium {
@@ -76,6 +101,7 @@ body {
 
 .content_pie {
     display: flex;
+    margin-top: 20px;
 
 }
 
@@ -99,4 +125,5 @@ body {
     font-weight: 700;
     color: white;
     margin-left: 5px;
+    cursor: pointer;
 }
